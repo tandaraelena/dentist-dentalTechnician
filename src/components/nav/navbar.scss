@@ -1,4 +1,42 @@
+.navbar {
+  display: grid;
+  grid-template-columns: 8rem auto;
+  grid-gap: 0.5rem;
+}
+
+.left-column {
+  text-align: end;
+  position: relative;
+}
+.right-column {
+  margin-top: 1.6rem;
+}
+
+.navbar > ul {
+  list-style: none;
+}
+
+button {
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    rgba(255, 0, 0, 0),
+    rgb(27, 107, 131),
+    rgba(159, 117, 226, 0)
+  );
+}
+
 .logo {
-  width: 58px;
-  height: 58px;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 0.8rem;
+  left: 1rem;
+}
+
+.chat-link {
+  top: 1.6rem;
+  left: 4.5rem;
+  position: absolute;
 }
